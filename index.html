@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APOLOGIZE</title>
+</head>
+<style>
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 10rem;
+    }
+</style>
+<body>
+    <div>
+    <video src="./video.mp4" loop muted autoplay = "autoplay" height="568px" width="320px"></video>
+    <video src="./video one" loop muted autoplay = "autoplay"></video>
+    </div> <br><br><br><br><br>
+    <div><button onclick="start()">START</button>
+    <button onclick="stop()">STOP</button></div>
+    <div><ol id="list"></ol></div>
+    <script src="./app.js"></script>
+</body>
+</html>
